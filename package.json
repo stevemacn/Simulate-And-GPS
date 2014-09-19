@@ -1,0 +1,31 @@
+{
+  "name": "Simulate-And-GPS",
+  "description": "Simulate a series of locations using android emulator",
+  "homepage": "http://github.com/stevemacn/Simulate-And-GPS",
+  "version": "0.0.1",
+  "author": {
+    "name": "Stephen MacNeil",
+    "email": "smacneil01@gmail.com"
+  },
+  "keywords": [
+    "android",
+    "mobile",
+    "telnet",
+    "gps",
+    "gis"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stevemacn/Simulate-And-GPS.git"
+  },
+  "bugs": {
+    "url": "http://github.com/stevemacn/Simulate-And-GPS/issues"
+  },
+  "dependencies": {
+    "net":"latest"
+  },
+  "files": [
+    "app.js"
+  ],
+  "main": "app.js"
+}
