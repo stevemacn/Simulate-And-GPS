@@ -18,7 +18,7 @@ var startPolling = function() {
         client.write('geo fix ' + elem.lon + ' ' + elem.lat + '\n')
         gpsCoordinates.push(elem)
 
-    }, 3000)
+    }, gpsFrequency)
 }
 
 //after the first set of data is received
