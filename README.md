@@ -16,7 +16,11 @@ Usage
 
 First: install npm / nodejs 
 
-Then: from the command line
+Then: clone this project
+
+    git clone https://github.com/stevemacn/Simulate-And-GPS 
+
+Then: from the command line (in the project folder)
 
     npm install
     node app.js
